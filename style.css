@@ -1,0 +1,298 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.background{
+    position: fixed;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    display: flex;
+    
+  
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    text-decoration: none;
+    top: 0;
+    color: white;
+    height: 4rem;
+
+   
+  
+}
+
+
+
+.lightning1{
+    margin-left: -5px;
+    height: 2rem;
+    width: 1rem;
+}
+
+.lightning2{
+    margin-left: -5px;
+    height: 2rem;
+    width: 1rem;
+}
+
+.lightning3{
+    margin-left: -10px;
+    height: 2.4rem;
+    width: 2rem;
+    margin-bottom: 0.4rem;
+}
+
+.lightning4{
+    margin-left: 5px;
+    height: 4rem;
+    width: 3rem;
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin-right: 2rem;
+    align-items: center;
+    font-family: "mangat"
+}
+
+.leftheader{
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    font-family: "wildwords";
+    font-size: 13px;
+}
+
+.rightheader{
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.part1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  
+}
+
+.part2rightimage{
+    width: 400px;
+    height: auto;
+    margin-left: 5rem;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 60px;
+    font-family: "Felt";
+    color: rgb(223, 62, 137);
+}
+
+.descrpition{
+    inline-size: 250px;
+    margin-top: 1rem;
+    font-size: 20px;
+    font-family: "komika";
+    margin-left: 1rem;
+    color: rgba(22, 28, 107, 0.849);
+
+}
+
+.Caption1{
+    text-align: center;
+    color: rgb(105, 14, 14);
+    font-family: "another";
+    font-size: 25px;
+    margin-left: 35px;
+}
+
+.backgroundcontainer{
+    width: 45%;
+    height: 500px;
+    border-radius: 5rem;
+    margin: 9em auto 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(198, 232, 235, 0.459);
+    box-shadow: 0 0 1rem rgba(230, 141, 141, 0.733);
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    text-align: center;
+    height: 3rem;
+    width: 12rem;
+    border-radius: 5rem;
+    background-color: rgba(231, 109, 87, 0.39);
+    font-family: "yew";
+    box-shadow: 0 0 2rem rgba(207, 162, 224, 0.5);
+    font-size: 25px;
+    margin-left: 2rem;
+
+}
+
+.backgroundcontainer2{
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    margin-top: 10rem;
+}
+
+.part2{
+    color: white;
+    display: flex;
+}
+
+.bottom{
+    display: flex;
+    position: absolute;
+    margin-top: 30rem;
+    margin-left: 20rem;
+
+  
+}
+
+.image1container, .image2container, .image3container, .imagecontainer4{
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.top{
+    margin-top: 20rem;
+    margin-left: 50rem;
+}
+
+.backgroundimage3{
+    display: flex;
+    margin-top: 30rem;
+    position: absolute;
+    z-index: -1;
+}
+
+.fuckme{
+    text-align: center;
+    font-size: 40px;
+    z-index: 5;
+    margin-top: 40rem;
+    color: white;
+}
+
+.fuckmex2{
+    text-align: center;
+    font-size: 40px;
+    z-index: 6;
+    margin-top: 10rem;
+    color: white;
+}
+
+.part4container{
+    display: flex;
+    color: white;
+    background:rgba(95, 165, 231, 0.11);
+    width: 50rem;
+    padding: 2.5rem;
+    border-radius: 0.5em;
+}
+
+.backgroundimage4{
+    background-image: linear-gradient(rgba(221, 185, 68, 0.199),rgba(233, 186, 56, 0.212));
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+}
+
+.button2{
+    color: white;
+    border: 0.15em solid white;
+    background-image: linear-gradient(rgba(69, 214, 233, 0.24), rgba(1, 68, 68, 0.5));
+    border-radius: 0.4em;
+    padding: 8px 30px;
+    margin-left: 4rem;
+    color: rgb(250, 18, 18);
+    font-family: "yew";
+    font-size: 40px;
+    
+}
+
+.button2text{
+    margin-top: 0.5rem;
+}
+
+.logocontainer1{
+    width: 30px;
+   margin-left: 1rem;
+    align-self: center;
+    margin-bottom: 4px;
+
+}
+
+.logocontainer2{
+    width: 100%;
+    height: 60px;
+    align-self: center;
+    margin-left: 9rem;
+}
+
+.part4heading, .part4description{
+    font-size: 28px;
+    font-family: "another";
+    color: rgb(247, 62, 62)
+}
+
+
+
+
+@font-face {
+    font-family: "wildwords";
+    src: url(resources/wildwordsbolditalic.TTF);
+}
+
+@font-face{
+    font-family: "mangat";
+    src: url(resources/mangat.ttf);
+}
+
+@font-face {
+    font-family: "Felt";
+    src: url(resources/wildwordsitalic.TTF)
+}
+
+@font-face {
+    font-family: "another";
+    src: url(resources/another.ttf);
+   
+}
+@font-face {
+    font-family: "Komika";
+    src: url(resources/Komika_display_bold.ttf)
+}
+
+@font-face{
+    font-family: "yew";
+    src: url(resources/YEWBB___.ttf)
+}
